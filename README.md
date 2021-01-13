@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio (the code)
 
 ## Brief intro
 This repository is holding the code of my portfolio.
