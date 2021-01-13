@@ -228,7 +228,7 @@ class App extends Component {
                       <li> Rest API</li>
                       <li> Styled Components</li>
                       <li> Git</li>
-                      <li> Adobe Photoshop CS</li>
+                      <li> Photoshop</li>
                     </ul>
                   </div>
                   <br></br>
