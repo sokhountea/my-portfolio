@@ -1,0 +1,62 @@
+@import 'variables';
+
+.section.experience > div {
+    //background-color: $bgCol4;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  
+    .experience-all {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-left: 2px solid white;
+    }
+  
+    .extended-heading {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    } .extended-heading:after {
+      content: '';
+      height: 2px;
+      background-color: white;
+      flex: 1;
+      margin: 0 30px;
+    }
+  
+    .experience-block {
+      width: 75%;
+      .experience-info {
+        h2 {
+          margin: 0;
+          line-height: 1;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: $txtCol !important;
+      
+          span {
+            text-transform: none;
+            font-weight: 300;
+            font-size: 0.7em;
+            padding: 0 0 0 20px;
+            font-style: italic;
+            color: white!important;
+          }
+        }
+        h3 {
+          margin: 0;
+        }
+      }
+  
+      .experience-text {
+        ul {
+          padding: 0 0 0 1.5em;
+        }
+        li::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f00d";
+          color: white !important;
+        } 
+      }
+    }
+  }

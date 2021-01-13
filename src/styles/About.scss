@@ -1,0 +1,154 @@
+@import 'variables';
+
+.section.about {
+  background-color: $bgCol;
+}
+.section.about > div {
+  background-color: $bgCol2;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+  padding-bottom: 5vh;
+  color: white;
+  
+  b {
+    font-weight: 700;
+    color: $bgCol3;
+  }
+  
+  .aboutTop {
+    display: grid;
+    grid-template-columns: 1fr 40%;
+  
+    div {
+      &:nth-child(1) {
+        padding: 0 20px 0 0;
+      }
+      &:nth-child(2) {
+        padding: 0 0 0 5%;
+      }
+    }
+  
+    .aboutTopLeft {
+      display: grid;
+      place-items: center;
+  
+      a {
+        color: $bgCol3 !important;
+        font-style: italic;
+        text-decoration: none;
+        position: relative;
+        transition: letter-spacing 0.3s ease 0s;
+        letter-spacing: 0em;
+      } a:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      } a:hover:after { 
+        width: 100%; 
+        left: 0; 
+      } a:hover {
+        letter-spacing: 0.1em;
+      }
+    }
+  
+    .image-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+  
+      .image {
+        position: relative;
+        width: 25vw;
+        max-width: 300px;
+        padding-bottom: 100%;
+  
+        img.scale {
+          border-radius: 10px;
+          position: absolute;
+          display: inline-block;
+          height: 100%;
+          width: 95%;
+          transition: all .3s ease;
+  
+          &:nth-child(1){
+            top: calc( 100% - 95% );
+            left: calc( 100% - 95% ); 
+            border: 3px solid white;
+          }
+          &:nth-child(2){
+            top: 0;
+            left: 0;
+          }
+        }
+  
+        &:hover {
+          img.scale {
+            &:nth-child(1){
+              top: 0;
+              left: 0;
+              z-index: 2;
+            }
+            &:nth-child(2){
+              top: calc( 100% - 90% );
+              left: calc( 100% - 90% ); 
+            }
+          }
+        }
+      }
+  
+      .location {
+        color: $txtCol;
+        margin-top: 15%;
+        font-size: 1.3em;
+        div { 
+          span {
+            text-transform: uppercase;
+            margin-left: 5px;
+            font-size: 0.7em;
+          }
+        }
+      }
+    }
+  }
+  
+  .aboutBottom {
+    p {
+      line-height: 0;
+    }
+    .skills {
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      ul {
+        li {
+          padding-left: 1.5em; 
+          text-indent: -1.5em;
+        }
+      }
+  
+      .list1 {
+        li::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f00d";
+          color: $bgCol3 !important;
+        } 
+      }
+  
+      .list2 {
+        li::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f054";
+          color: $bgCol3 !important;
+        } 
+      }
+    }
+  }
+}

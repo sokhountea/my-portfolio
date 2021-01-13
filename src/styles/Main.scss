@@ -1,0 +1,55 @@
+@import 'variables';
+
+.section.main {
+  background-color: rgba($color: #f4f1ed, $alpha: 1);
+}
+.section.main > div {
+  z-index: 2;
+
+  .main.bio {
+    z-index: 1;
+    width: 100%;
+    line-height: 3;
+  
+    .name {
+      font-family: 'Times New Roman', serif;
+      line-height: 1;
+      font-size: $name-fz-lg;
+      font-weight: bold;
+      font-style: italic;
+      letter-spacing: 5px;
+      color: black;
+  
+      > span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.7em;
+        letter-spacing: 2px;
+        font-family: Lucida Console, Courier, monospace;
+      }
+    }
+  
+    .bio.text {
+      line-height: 1.5;
+      width: 80%;
+      color: #8f8f8f;
+    }
+  }
+
+  button {
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: $ff-mono;
+    font-size: 0.8em;
+    color: inherit !important;
+    background-color: rgba($color: $bgCol, $alpha: 0.3);
+  
+    padding: 10px 20px;
+    border: 1px solid $txtCol;
+    border-radius: 10px;
+  
+    transition: background-color 0.3s ease-in-out;
+  } button:hover {
+    background-color: rgba($color: $txtCol, $alpha: 0.1);
+  }
+} 
