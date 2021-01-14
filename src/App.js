@@ -175,11 +175,11 @@ class App extends Component {
                       <p>
                         Hello! I'm Sokhountea (Sou for short). I'm
                         a student in my last year at
-                      <b> McGill University</b> majoring in
-                      Computer Science.
-                      <br></br>
+                        <b> McGill University</b> majoring in
+                        Computer Science.
                         <br></br>
-                        <b><em>"I love creating things pretty things"</em></b>,
+                        <br></br>
+                        <b><em>"I love creating pretty things"</em></b>,
                       this sentence applies to my hobbies ever
                       since I was young. During the early years of Tumblr, I was
                       obsessed with editing images and drawing, and
@@ -221,24 +221,15 @@ class App extends Component {
                       <li> Java</li>
                       <li> HTML & (S)CSS</li>
                       <li> JavaScript</li>
+                      <li> React.js</li>
                       <li> Node.js</li>
                     </ul>
                     <ul className="list1">
                       <li> Rest API</li>
                       <li> Styled Components</li>
+                      <li> SQL </li>
                       <li> Git</li>
                       <li> Photoshop</li>
-                    </ul>
-                  </div>
-                  <br></br>
-                  <p>Here are the technologies I'm currently learning to use:</p>
-                  <div className="skills">
-                    <ul className="list2">
-                      <li> React</li>
-                      <li> Redux</li>
-                    </ul>
-                    <ul className="list2">
-                      <li> SQL</li>
                     </ul>
                   </div>
                 </div>

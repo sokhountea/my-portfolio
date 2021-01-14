@@ -8,7 +8,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border-left: 2px solid white;
+      border-left: 2px solid $txtCol3;
     }
   
     .extended-heading {
@@ -18,7 +18,7 @@
     } .extended-heading:after {
       content: '';
       height: 2px;
-      background-color: white;
+      background-color: $txtCol3;
       flex: 1;
       margin: 0 30px;
     }
@@ -39,7 +39,7 @@
             font-size: 0.7em;
             padding: 0 0 0 20px;
             font-style: italic;
-            color: white!important;
+            color: $txtCol3 !important;
           }
         }
         h3 {
@@ -55,7 +55,7 @@
           font-family: "Font Awesome 5 Free";
           font-weight: 900;
           content: "\f00d";
-          color: white !important;
+          color: $txtCol3 !important;
         } 
       }
     }

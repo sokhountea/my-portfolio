@@ -57,7 +57,7 @@
     margin-right: 5vw;
     transition: color 0.001s ease;
   } a:hover {
-    color: rgba($color: white, $alpha: 0.8) !important;
+    color: rgba($color: $txtCol3, $alpha: 0.8) !important;
   }
 }
 
@@ -101,7 +101,8 @@
 
   ul {
     font-family: $ff-mono;
-    font-size: 0.9em;
+    font-size: 0.85em;
+    font-weight: 300;
     list-style: none; 
     padding: 0 1em;
   } li {
@@ -200,6 +201,30 @@ footer {
     min-width: $collapse-md !important;
   }
 
+  .section.about > div {
+    .aboutTop {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      div {
+        &:nth-child(1), &:nth-child(2) {
+          padding: 0;
+        }
+      }
+
+      .image-content {
+        display: grid !important;
+        margin-bottom: 35px !important;
+
+        .image {
+          width: 40vw !important;
+        }
+      }
+    }
+  }
+
   .project.block {
     width: $proj-w-md !important;
     max-width: 1000px !important;
@@ -248,31 +273,6 @@ footer {
 
   .section > div {
     padding: calc(#{$bar-h-sm} + 15px) $mg-sm !important;
-  }
-
-  .section.about > div {
-    .aboutTop {
-      display: flex !important;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-
-      div {
-        &:nth-child(1), &:nth-child(2) {
-          padding: 0;
-        }
-      }
-
-      .image-content {
-        display: grid !important;
-        margin-bottom: 35px !important;
-
-        .image {
-          width: 40vw !important;
-          max-width: 1000px !important;
-        }
-      }
-    }
   }
 
   .collapsible.open {

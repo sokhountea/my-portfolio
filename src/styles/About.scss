@@ -7,11 +7,11 @@
   background-color: $bgCol2;
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
   padding-bottom: 5vh;
-  color: white;
+  color: $txtCol3;
   
   b {
-    font-weight: 400;
-    color: $bgCol3;
+    font-weight: 700;
+    color: $txtCol2;
   }
   
   .aboutTop {
@@ -32,7 +32,7 @@
       place-items: center;
   
       a {
-        color: $bgCol3 !important;
+        color: $txtCol2 !important;
         font-style: italic;
         text-decoration: none;
         position: relative;
@@ -65,7 +65,7 @@
       .image {
         position: relative;
         width: 25vw;
-        max-width: 300px;
+        max-width: 250px;
         padding-bottom: 100%;
   
         img.scale {
@@ -79,7 +79,7 @@
           &:nth-child(1){
             top: calc( 100% - 95% );
             left: calc( 100% - 95% ); 
-            border: 3px solid white;
+            border: 3px solid $txtCol3;
           }
           &:nth-child(2){
             top: 0;
@@ -103,7 +103,7 @@
       }
   
       .location {
-        color: $bgCol3;
+        color: $txtCol2;
         margin-top: 15%;
         font-size: 1.3em;
         div { 
@@ -134,21 +134,11 @@
   
       .list1 {
         li::before {
-          font-size: 0.6em;
+          font-size: 0.75em;
           font-family: "Font Awesome 5 Free";
           font-weight: 900;
           content: "\f00d";
-          color: $bgCol3 !important;
-        } 
-      }
-  
-      .list2 {
-        li::before {
-          font-size: 0.6em;
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          content: "\f054";
-          color: $bgCol3 !important;
+          color: $txtCol2 !important;
         } 
       }
     }

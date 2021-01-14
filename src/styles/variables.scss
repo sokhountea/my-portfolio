@@ -3,11 +3,13 @@ $marginTB: 70px;
 $marginLR: 10vw;
 
 $bgCol: #f4f1ed;
-//$bgCol2: #d3b3b0;
 $bgCol2: #cc9a8f;
-$bgCol3: black;
 $bgCol4: #d7ddd7;
+
 $txtCol: #363636;
+$txtCol2: black;
+$txtCol3: white;
+
 
 /* variables for bar */
 $bar-h-sm: 6.5vw;
@@ -23,7 +25,7 @@ $collapse-lg: 40%;
 $mg-sm: 10vw;
 $mg-l: 15vw;
 
-$ff-mono: Lucida Console, Courier, monospace;
+$ff-mono: 'Roboto Mono', monospace;
 
 /* variables for font-size*/
 $fz-xxs: 11px;
@@ -38,6 +40,6 @@ $name-fz-lg: 4.4em;
 $name-fz-sm: 10vw;
 
 /* variables for projects */
-$proj-w-sm: 100%;
+$proj-w-sm: 90%;
 $proj-w-md: 80%;
 $proj-w-lg: 80%;

@@ -43,7 +43,7 @@
   
       &:hover {
         .title {
-          color: white;
+          color: $txtCol3;
         } span {
           width: 100%;
         }
@@ -205,6 +205,7 @@
       }
 
       .pdf-link {
+        text-transform: uppercase;
         font-family: $ff-mono;
         font-size: 0.3em;
         color: inherit !important;
