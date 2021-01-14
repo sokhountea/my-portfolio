@@ -173,11 +173,10 @@ class App extends Component {
                   <div className="aboutTopLeft">
                     <div>
                       <p>
-                        Hello! I'm Sokhountea (Sou for short) and I’m
-                        currently a student in my last year at
+                        Hello! I'm Sokhountea (Sou for short). I'm
+                        a student in my last year at
                       <b> McGill University</b> majoring in
-                      Computer Science and minoring in Mathematics
-                      and Economics.
+                      Computer Science.
                       <br></br>
                         <br></br>
                         <b><em>"I love creating things pretty things"</em></b>,
