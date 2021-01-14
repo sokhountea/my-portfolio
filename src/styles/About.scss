@@ -10,7 +10,7 @@
   color: white;
   
   b {
-    font-weight: 700;
+    font-weight: 400;
     color: $bgCol3;
   }
   
@@ -134,6 +134,7 @@
   
       .list1 {
         li::before {
+          font-size: 0.6em;
           font-family: "Font Awesome 5 Free";
           font-weight: 900;
           content: "\f00d";
@@ -143,6 +144,7 @@
   
       .list2 {
         li::before {
+          font-size: 0.6em;
           font-family: "Font Awesome 5 Free";
           font-weight: 900;
           content: "\f054";
