@@ -185,9 +185,7 @@ class App extends Component {
                       obsessed with editing images and drawing, and
                       I had&nbsp;
                       <span style={{ display: "inline-block" }}>
-                          <a href="https://taehyunbae.tumblr.com/tagged/edit" target="_blank" rel="noreferrer">multiple</a>
-                      &nbsp;
-                      <a href="https://hoshisprincess.tumblr.com/tagged/edit" target="_blank" rel="noreferrer">blogs</a>
+                          <a href="https://sokhountea.github.io/photography-template/portfolio/archive" target="_blank" rel="noreferrer">multiple blogs</a>
                         </span>
                       &nbsp;where I would publish my graphics. I would stay up
                       all night editing my blogs' themes, even though the code looked
