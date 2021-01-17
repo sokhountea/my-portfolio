@@ -173,7 +173,7 @@ class App extends Component {
                   <div className="aboutTopLeft">
                     <div>
                       <p>
-                        Hello! I'm Sokhountea (Sou for short). I'm
+                        Hello! I'm Sokhountea. I'm
                         a student in my last year at
                         <b> McGill University</b> majoring in
                         Computer Science.
@@ -193,6 +193,12 @@ class App extends Component {
                       my teenager years doing that, so naturally, here I am, super into
                       <b> web development</b>!
                       <br></br>
+                        <br></br>
+                        I started learning HTML/CSS and JS during summer 2019. Then, from then on,
+                        as I realized how fun and satisfying designing things and making
+                        them come into real life is, I have continuously practiced by working
+                        on numerous projects and learning new technologies.
+                        <br></br>
                         <br></br>
                       </p>
                     </div>
