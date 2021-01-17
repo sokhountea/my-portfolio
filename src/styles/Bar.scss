@@ -155,7 +155,6 @@
 .collapsible {
     display: flex;
     justify-content: center;
-    align-items: center start;
     position: fixed;
     top: calc( #{$bar-h-l} + 20px) ;
     right: 0;
@@ -169,19 +168,17 @@
     box-shadow: 0 0 0 0 $bgCol;
     z-index: 3;
   
-    transition: min-width 0.3s ease-in-out, box-shadow 0.5s;
-    -webkit-transition: min-width 0.3s ease-in-out, box-shadow 0.5s;
+    transition: min-width 0.3s ease-in-out, box-shadow 0.3s;
+    -webkit-transition: min-width 0.3s ease-in-out, box-shadow 0.3s;
     
     ul {
       padding: 0;
       color: black !important;
       list-style: none;
-      text-align: left;
   
       li {
         display: flex;
         justify-content: center;
-        align-items: center;
 
         cursor: pointer;
         margin: 0 0 4vmin 0;
@@ -219,16 +216,13 @@
       }
 
       .social.links {
-        margin: 5px !important;
-        justify-content: space-between !important;
         width: 80%;
+        margin: 5px;
+        justify-content: space-between;
       
         a {
-          margin-right: 0 !important;
+          margin-right: 0;
           font-size: 0.7em;
-          display: grid;
-          place-items: center !important;
-          transition: color 0.001s ease;
         } a:hover {
           color: rgba($color: $bgCol4, $alpha: 1) !important;
         }

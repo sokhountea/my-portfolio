@@ -41,23 +41,12 @@
 
 .social.links {
   position: relative;
-  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center start;
-  margin: 50px 0 0 0;
 
   a {
-    font-size: 2em;
     color: $txtCol !important;
-    flex: 0 1 5px;
-
-    display: grid;
-    place-items: center start;
-    margin-right: 5vw;
-    transition: color 0.001s ease;
-  } a:hover {
-    color: rgba($color: $txtCol3, $alpha: 0.8) !important;
+    transition: all 0.0001s ease;
   }
 }
 
@@ -154,17 +143,12 @@ footer {
 
   .social.links {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center !important;
-    margin: 10px auto !important;
+    justify-content: center;
+    margin: 10px auto;
   
     a {
       font-size: 1.8em;
-      display: grid;
-      place-items: center !important;
-      margin: 0 3% !important;
-      transition: color 0.001s ease;
+      margin: 0 3%;
     } a:hover {
       color: rgba($color: $bgCol4, $alpha: 0.8) !important;
     }
