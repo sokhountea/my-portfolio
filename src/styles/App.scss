@@ -187,11 +187,9 @@ footer {
   
   .project.block {
     width: $proj-w-md !important;
-    max-width: 1000px !important;
-    max-height: 1000px !important;
     display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
+    flex-direction: column;
+    justify-content: center;
 
     .txt {
       margin-top: 15px;

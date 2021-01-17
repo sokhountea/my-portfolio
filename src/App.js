@@ -284,7 +284,7 @@ class App extends Component {
                   <h1>My Projects.</h1>
                 </div>
                 <div className="projects-all">
-                  <div className="project block" block="yellow">
+                  <div className="project block">
                     <img className="cropped-img" src={ss4} alt="proj-1" ></img>
                     <div className="txt">
                       <div>
@@ -310,7 +310,7 @@ class App extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="project block" block="yellow">
+                  <div className="project block">
                     <img className="cropped-img" src={ss3} alt="proj-1" ></img>
                     <div className="txt">
                       <div>
@@ -333,7 +333,7 @@ class App extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="project block" block="red" >
+                  <div className="project block" >
                     <img className="cropped-img" src={ss2} alt="proj-1" ></img>
                     <div className="txt">
                       <div>
@@ -355,7 +355,7 @@ class App extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="project block" block="yellow">
+                  <div className="project block">
                     <img className="cropped-img" src={ss1} alt="proj-1" ></img>
                     <div className="txt">
                       <div>

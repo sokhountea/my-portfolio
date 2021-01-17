@@ -12,7 +12,7 @@
         flex-wrap: wrap;
         justify-content: center !important;
   
-        [block] {
+        .project.block {
             width: $proj-w-lg;
             margin: 30px 0 10vh 0;
             display: grid;
@@ -51,6 +51,7 @@
                         font-size: 1.3em;
                     }
                     span {
+                        background: $bgCol2;
                         display: block;
                         border-radius: 5px;
                         height: 1px;
@@ -77,38 +78,10 @@
 
                 .link-list {
                     a {
+                        color: $bgCol2!important; 
                         font-size: 1.4em;
                     }
                 }
-            }
-        }
-    }
-}
-
-[block="red"] {
-    .txt {
-        .project-title {
-            span {
-                background: $bgCol2;
-            }
-        }
-        .link-list {
-            a {
-                color: $bgCol2!important; 
-            }
-        }
-    }
-}
-[block="yellow"] {
-    .txt {
-        .project-title {
-            span {
-                background: $bgCol2;
-            }
-        }
-        .link-list {
-            a {
-                color: $bgCol2 !important; 
             }
         }
     }
