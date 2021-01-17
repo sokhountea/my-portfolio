@@ -15,10 +15,12 @@ import FadeIn from 'react-fade-in';
 // Images
 import pfp from './images/pfp.png';
 import pfpDraw from './images/pfp-draw.png';
-import pdf from './images/Sokhountea_Sy_CV.pdf';
+import pdf from './images/Sokhountea-Sy-CV.pdf';
 // Screenshots
-import ss1 from './images/ss/1.png';
-import ss2 from './images/ss/2.png';
+import ss1 from './images/ss/ss-v2-1.png';
+import ss2 from './images/ss/ss-v2-2.png';
+import ss3 from './images/ss/ss-v2-3.png';
+import ss4 from './images/ss/ss-v2-4.png';
 
 
 class App extends Component {
@@ -194,7 +196,7 @@ class App extends Component {
                       <b> web development</b>!
                       <br></br>
                         <br></br>
-                        I started learning HTML/CSS and JS during summer 2019. Then, from then on,
+                        I started learning HTML/CSS and JS during summer 2020. Then, from then on,
                         as I realized how fun and satisfying designing things and making
                         them come into real life is, I have continuously practiced by working
                         on numerous projects and learning new technologies.
@@ -279,11 +281,60 @@ class App extends Component {
             <div>
               <div className="all">
                 <div className="extended-heading">
-                  <h1>Some Projects.</h1>
+                  <h1>My Projects.</h1>
                 </div>
                 <div className="projects-all">
+                  <div className="project block" block="yellow">
+                    <img className="cropped-img" src={ss4} alt="proj-1" ></img>
+                    <div className="txt">
+                      <div>
+                        <div className="project-title">
+                          <h4>Photography Portfolio</h4>
+                          <span></span>
+                        </div>
+                        <p>Designed and developed a responsive photography portfolio website.
+                        Design is kept minimalist to let the photographs stand out. Implemented
+                        a simple backend that allows sending emails through a form. This project
+                        helped me get more comfortable when communicating with the backend.
+                        </p>
+                        <ul className="tech-list">
+                          <li>React.js</li>
+                          <li>SCSS</li>
+                          <li>Node.js</li>
+                          <li>Styled Components</li>
+                        </ul>
+                        <ul className="link-list">
+                          <li><a href="https://github.com/sokhountea/photography-template" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icon" icon={faGithub} /></a></li>
+                          <li><a href="https://sokhountea.github.io/photography-template/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icon" icon={faExternalLinkAlt} /></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="project block" block="yellow">
+                    <img className="cropped-img" src={ss3} alt="proj-1" ></img>
+                    <div className="txt">
+                      <div>
+                        <div className="project-title">
+                          <h4>My Portfolio</h4>
+                          <span></span>
+                        </div>
+                        <p>A single page application that is responsive and interactive. This project helped me get more
+                        comfortable working with React.js and I also learned how to work CSS preprocessor for the first
+                        time.
+                        </p>
+                        <ul className="tech-list">
+                          <li>React.js</li>
+                          <li>SCSS</li>
+                        </ul>
+                        <ul className="link-list">
+                          <li><a href="https://github.com/sokhountea/my-portfolio" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icon" icon={faGithub} /></a></li>
+                          <li><a href="https://sokhountea.github.io/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icon" icon={faExternalLinkAlt} /></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                   <div className="project block" block="red" >
-                    <img className="cropped-img" src={ss1} alt="proj-1" ></img>
+                    <img className="cropped-img" src={ss2} alt="proj-1" ></img>
                     <div className="txt">
                       <div>
                         <div className="project-title">
@@ -291,7 +342,7 @@ class App extends Component {
                           <span></span>
                         </div>
                         <p>Designed a new responsive and interactive look to the current McGill's SOCS.
-                        Implemented a simple backend that allows logged-in users to modify the content of
+                        Implemented a simple backend that allows users to modify the content of
                         some pages.
                         </p>
                         <ul className="tech-list">
@@ -305,7 +356,7 @@ class App extends Component {
                     </div>
                   </div>
                   <div className="project block" block="yellow">
-                    <img className="cropped-img" src={ss2} alt="proj-1" ></img>
+                    <img className="cropped-img" src={ss1} alt="proj-1" ></img>
                     <div className="txt">
                       <div>
                         <div className="project-title">
@@ -314,7 +365,8 @@ class App extends Component {
                         </div>
                         <p>A simple web page that generates a board game
                         with the same concept as Tic Tac Toe and allows
-                        two users to play against one another.
+                        two users to play against one another. This is my first
+                        web development project.
                         </p>
                         <ul className="tech-list">
                           <li>JS</li>

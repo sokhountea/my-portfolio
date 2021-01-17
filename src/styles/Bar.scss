@@ -10,7 +10,6 @@
     width: 100%;
     top: 0;
     background-color: rgba(244, 241, 237, 0.9);
-    font-size: 1em;
     
     display: flex;
     align-items: center;
@@ -156,12 +155,12 @@
 .collapsible {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center start;
     position: fixed;
     top: calc( #{$bar-h-l} + 20px) ;
     right: 0;
   
-    font-size: 3.3em;
+    font-size: 2.2em;
     min-height: 100vh;
     max-width: 0;
     min-width: 0;
@@ -174,7 +173,6 @@
     -webkit-transition: min-width 0.3s ease-in-out, box-shadow 0.5s;
     
     ul {
-      margin: 0 0 50% 0;
       padding: 0;
       color: black !important;
       list-style: none;
@@ -200,18 +198,19 @@
         > span:hover {
           color: rgba($color: $bgCol4, $alpha: 1);
         }
-
-
       }
 
       .pdf-link {
+        margin-top: 50px;
+        text-align: center;
+        width: 80%;
         text-transform: uppercase;
         font-family: $ff-mono;
-        font-size: 0.3em;
+        font-size: 0.5em;
         color: inherit !important;
         text-decoration: none;
         background-color: rgba($color: $bgCol4, $alpha: 0.4);
-        padding: 10px 20px;
+        padding: 10px;
         border: 1px solid $txtCol;
         border-radius: 10px;
         transition: background-color 0.3s ease-in-out;
@@ -220,13 +219,13 @@
       }
 
       .social.links {
-        margin: 0 !important;
+        margin: 5px !important;
         justify-content: space-between !important;
-        width: 50%;
+        width: 80%;
       
         a {
           margin-right: 0 !important;
-          font-size: 0.5em;
+          font-size: 0.7em;
           display: grid;
           place-items: center !important;
           transition: color 0.001s ease;
@@ -253,10 +252,8 @@
           transition-delay: .30s;
         }&:nth-child(3){
           transition-delay: .40s;
-        }&:nth-child(4){
+        }&:nth-child(4), &:nth-child(5){
           transition-delay: .50s;
-        }&:nth-child(5){
-          transition-delay: 0.60s;
         }
       }
     }

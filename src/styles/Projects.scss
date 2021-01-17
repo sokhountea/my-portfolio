@@ -1,11 +1,11 @@
 @import 'variables';
 
 .section.projects {
-    background-color: rgba($color: $bgCol4, $alpha: 0.5);
+    //background-color: rgba($color: $bgCol4, $alpha: 0.5);
 }
 .section.projects > div {
     background-color: $bgCol;
-    clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
+    //clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
   
     .projects-all {
         display: flex;
@@ -14,34 +14,27 @@
   
         [block] {
             width: $proj-w-lg;
-            max-width: 600px;
-            min-height: 500px;
-            max-height: 500px;
-            margin: 30px 0 5vh 0;
+            margin: 30px 0 10vh 0;
             display: grid;
-            grid-template-columns: 50% 50%;
-            overflow: hidden !important;
-
-            box-shadow: 0 8px 20px 0 rgba( 31, 38, 135, 0.37 );
-            border-radius: 0 25px 25px 0;
+            grid-template-columns: 60% 40%;
 
             .cropped-img {
-                height: 100%;
-                object-fit: cover;
+                margin: auto;
+                width: 100%;
             }
 
             .txt {
+                width: 100%;
+                padding: 15px 0;
                 color: black;
                 text-align: right;
                 background: rgba( 255, 255, 255, 0.30 );
-
-                border-radius: 30px;
-                box-shadow: -20px 10px 40px 0 rgba( 31, 38, 135, 0.15 );
                 backdrop-filter: blur( 15.0px );
+                box-shadow: 0PX 10px 40px 0 rgba( 31, 38, 135, 0.15 );
                 -webkit-backdrop-filter: blur( 15.0px );
+                border-radius: 15px;
       
                 font-size: 0.9em;
-                width: 100%;
                 line-height: 1.7;
 
                 display: flex;
@@ -50,16 +43,14 @@
             
                 > div {
                     width: 85%;
-                    height: 80%;
                 }
 
                 .project-title {
                     h4 {
-                        margin: 0.5em 0;
+                        margin: 0.8em 0;
                         font-size: 1.3em;
                     }
                     span {
-                        margin: 0 10px;
                         display: block;
                         border-radius: 5px;
                         height: 1px;

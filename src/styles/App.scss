@@ -36,7 +36,7 @@
 
 .all {
   width: 100%;
-  max-width: 900px !important;
+  max-width: 1200px !important;
 }
 
 .social.links {
@@ -184,6 +184,24 @@ footer {
   .App {
     font-size: $fz-xl;
   }
+  
+  .project.block {
+    width: $proj-w-md !important;
+    max-width: 1000px !important;
+    max-height: 1000px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+
+    .txt {
+      margin-top: 15px;
+      padding: 0 !important;
+
+      > div {
+        margin: 2vw 0;
+      }
+    }
+  }
 } 
 
 @media screen and (max-width: 900px) {
@@ -220,37 +238,6 @@ footer {
 
         .image {
           width: 40vw !important;
-        }
-      }
-    }
-  }
-
-  .project.block {
-    width: $proj-w-md !important;
-    max-width: 1000px !important;
-    max-height: 1000px !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    border-radius: 0 0 25px 25px !important;
-
-    .cropped-img {
-      width: 100%;
-      height: auto !important;
-      align-self: flex-start;
-    }
-    .txt {
-      box-shadow: 0px -20px 20px 0 rgba( 31, 38, 135, 0.1 ) !important;
-      margin: -30% 0 0 0;
-      min-height: 0 !important;
-
-      > div {
-        margin: 3vw 0;
-      }
-
-      .project-title {
-        span {
-          margin: 0 !important;
         }
       }
     }
@@ -296,12 +283,6 @@ footer {
       }
     }
   }
-
-  // .project.block {
-  //   .txt {
-  //     margin: -30% 0 0 0;
-  //   }
-  // }
 } 
 
 @media screen and (max-width: 300px) {
