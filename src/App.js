@@ -319,7 +319,7 @@ class App extends Component {
                           <span></span>
                         </div>
                         <p>A single page application that is responsive and interactive. This project helped me get more
-                        comfortable working with React.js and I also learned how to work CSS preprocessor for the first
+                        comfortable working with React.js and work with a CSS preprocessor for the first
                         time.
                         </p>
                         <ul className="tech-list">
@@ -342,8 +342,8 @@ class App extends Component {
                           <span></span>
                         </div>
                         <p>Designed a new responsive and interactive look to the current McGill's SOCS.
-                        Implemented a simple backend that allows users to modify the content of
-                        some pages.
+                        Implemented a simple backend that allows users to dynamically modify the content of
+                        some pages, like the Events page, where they can add new listings.
                         </p>
                         <ul className="tech-list">
                           <li>React.js</li>
