@@ -177,8 +177,8 @@ class App extends Component {
                       <p>
                         Hello! I'm Sokhountea. I'm
                         a student in my last year at
-                        <b> McGill University</b> majoring in
-                        Computer Science.
+                        <b> McGill University</b> with a major
+                        in Computer Science and a minor in Mathematics.
                         <br></br>
                         <br></br>
                         <b><em>"I love creating pretty things"</em></b>,
