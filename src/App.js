@@ -231,7 +231,7 @@ class App extends Component {
                       <li> Node.js</li>
                     </ul>
                     <ul className="list1">
-                      <li> Rest API</li>
+                      <li> REST API</li>
                       <li> Styled Components</li>
                       <li> SQL </li>
                       <li> Git</li>
@@ -350,7 +350,7 @@ class App extends Component {
                           <li>Styled Components</li>
                           <li>Node.js</li>
                           <li>MySQL</li>
-                          <li>Rest API</li>
+                          <li>REST API</li>
                         </ul>
                       </div>
                     </div>
