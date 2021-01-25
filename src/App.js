@@ -151,7 +151,7 @@ class App extends Component {
                         <br></br>
                       </p>
                       <p className="bio text">
-                        Full stack developer, based in QC, CAN, currently working on finding the tech stack I am the most comfortable with.
+                        Aspiring full stack developer, based in QC, CAN, currently working on finding the tech stack I am the most comfortable with.
                     </p>
                       <button onClick={() => this.scrollToNode(this.projects)}>
                         My Projects
