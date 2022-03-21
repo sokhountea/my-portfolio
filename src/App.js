@@ -122,7 +122,7 @@ class App extends Component {
               <div className="social links">
                 <a href="mailto:sokhountea.sy@mail.mcgill.ca" rel="noreferrer"> <FontAwesomeIcon className="icon" icon={faEnvelope} /></a>
                 <a href="https://github.com/sokhountea" target="_blank" rel="noreferrer" > <FontAwesomeIcon className="icon" icon={faGithub} /></a>
-                <a href="https://www.linkedin.com/in/sokhountea-s-99068a180/" target="_blank" rel="noreferrer" > <FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
+                <a href="www.linkedin.com/in/sokhountea-sy-99068a180" target="_blank" rel="noreferrer" > <FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
               </div>
             </li>
           </ul>
@@ -416,7 +416,7 @@ class App extends Component {
               <div className="social links">
                 <a href="mailto:sokhountea.sy@mail.mcgill.ca" rel="noreferrer"> <FontAwesomeIcon className="icon" icon={faEnvelope} /></a>
                 <a href="https://github.com/sokhountea" target="_blank" rel="noreferrer" > <FontAwesomeIcon className="icon" icon={faGithub} /></a>
-                <a href="https://www.linkedin.com/in/sokhountea-s-99068a180/" target="_blank" rel="noreferrer" > <FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
+                <a href="www.linkedin.com/in/sokhountea-sy-99068a180" target="_blank" rel="noreferrer" > <FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
               </div>
               <p>Sokhountea Sy</p>
             </div>
