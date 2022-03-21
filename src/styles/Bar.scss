@@ -189,8 +189,8 @@
   
         > span {
           cursor: pointer;
-          transition: color 0.3s ease;
-          -webkit-transition: color 0.3s ease;
+          transition: color 0.1s ease;
+          -webkit-transition: color 0.1s ease;
         }
         > span:hover {
           color: rgba($color: $bgCol4, $alpha: 1);
