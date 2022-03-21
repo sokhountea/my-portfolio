@@ -21,6 +21,7 @@ import ss1 from './images/ss/ss-v2-1.png';
 import ss2 from './images/ss/ss-v2-2.png';
 import ss3 from './images/ss/ss-v2-3.png';
 import ss4 from './images/ss/ss-v2-4.png';
+import ss5 from './images/ss/ss-v2-5.png';
 
 
 class App extends Component {
@@ -151,8 +152,8 @@ class App extends Component {
                         <br></br>
                       </p>
                       <p className="bio text">
-                        Aspiring full stack developer, based in QC, CAN, currently working on finding the tech stack I am the most comfortable with.
-                    </p>
+                        Full stack developer, based in QC, CAN, experienced in working with React.js, SCSS, Bootstrap, Node.js, Redux, Rest API, SQL.
+                      </p>
                       <button onClick={() => this.scrollToNode(this.projects)}>
                         My Projects
                       </button>
@@ -176,25 +177,24 @@ class App extends Component {
                     <div>
                       <p>
                         Hello! I'm Sokhountea. I'm
-                        a student in my last year at
-                        <b> McGill University</b> with a major
-                        in Computer Science and a minor in Mathematics.
+                        a Computer Science Major and Mathematics and Economics Minors graduate from
+                        <b> McGill University</b>.
                         <br></br>
                         <br></br>
                         <b><em>"I love creating pretty things"</em></b>,
-                      this sentence applies to my hobbies ever
-                      since I was young. During the early years of Tumblr, I was
-                      obsessed with editing images and drawing, and
-                      I had&nbsp;
-                      <span style={{ display: "inline-block" }}>
+                        this sentence applies to my hobbies ever
+                        since I was young. During the early years of Tumblr, I was
+                        obsessed with editing images and drawing, and
+                        I had&nbsp;
+                        <span style={{ display: "inline-block" }}>
                           <a href="https://sokhountea.github.io/photography-template/#/portfolio/archive" target="_blank" rel="noreferrer">multiple blogs</a>
                         </span>
-                      &nbsp;where I would publish my graphics. I would stay up
-                      all night editing my blogs' themes, even though the code looked
-                      like gibberish at that time. I spent a very big chunk of
-                      my teenager years doing that, so naturally, here I am, super into
-                      <b> web development</b>!
-                      <br></br>
+                        &nbsp;where I would publish my graphics. I would stay up
+                        all night editing my blogs' themes, even though the code looked
+                        like gibberish at that time. I spent a very big chunk of
+                        my teenager years doing that, so naturally, here I am, super into
+                        <b> web development</b>!
+                        <br></br>
                         <br></br>
                         I started learning HTML/CSS and JS during summer 2020. Then, from then on,
                         as I realized how fun and satisfying designing things and making
@@ -202,10 +202,11 @@ class App extends Component {
                         on numerous projects and learning new technologies.
                         <br></br>
                         <br></br>
+                        I finally got to put my knowledge to good use once I got my first internship as a Full Stack Developer Intern at Bombardier where I spent a year developing, maintaining and testing numerous features on Bombardier’s Online Parts Ordering 2.0 website which generates over $2,000,000 in revenue per week.
                       </p>
                     </div>
                   </div>
-                  <div className="image-content">
+                  {/* <div className="image-content">
                     <div>
                       <div className="image">
                         <img className="scale" src={pfpDraw} alt="about" ></img>
@@ -218,7 +219,7 @@ class App extends Component {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="aboutBottom">
                   <p>Here are some technologies & tools I've worked with:</p>
@@ -226,15 +227,17 @@ class App extends Component {
                     <ul className="list1">
                       <li> Java</li>
                       <li> HTML & (S)CSS</li>
+                      <li> Python</li>
                       <li> JavaScript</li>
                       <li> React.js</li>
                       <li> Node.js</li>
                     </ul>
                     <ul className="list1">
                       <li> REST API</li>
-                      <li> Styled Components</li>
+                      <li> AWS Tools</li>
                       <li> SQL </li>
                       <li> Git</li>
+                      <li> Jira</li>
                       <li> Photoshop</li>
                     </ul>
                   </div>
@@ -285,6 +288,29 @@ class App extends Component {
                 </div>
                 <div className="projects-all">
                   <div className="project block">
+                    <img className="cropped-img" src={ss5} alt="proj-1" ></img>
+                    <div className="txt">
+                      <div>
+                        <div className="project-title">
+                          <h4>Productivity Application</h4>
+                          <span></span>
+                        </div>
+                        <p>Developed a responsive application using React.js, Bootstrap, MUI and SCSS, that includes Reminders and Notes. It keeps track of all newly added, edited, deleted tasks, lists and notes by using local storage. Designs are inspired by Apple’s applications to showcase the ability to implement and follow a prototype.
+                        </p>
+                        <ul className="tech-list">
+                          <li>React.js</li>
+                          <li>SCSS</li>
+                          <li>Bootstrap</li>
+                          <li>MUI</li>
+                        </ul>
+                        <ul className="link-list">
+                          <li><a href="https://github.com/sokhountea/productivity-app" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icon" icon={faGithub} /></a></li>
+                          <li><a href="https://sokhountea.github.io/productivity-app/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icon" icon={faExternalLinkAlt} /></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="project block">
                     <img className="cropped-img" src={ss4} alt="proj-1" ></img>
                     <div className="txt">
                       <div>
@@ -293,9 +319,9 @@ class App extends Component {
                           <span></span>
                         </div>
                         <p>Designed and developed a responsive photography portfolio website.
-                        Design is kept minimalist to let the photographs stand out. Implemented
-                        a simple backend that allows sending emails through a form. This project
-                        helped me get more comfortable when communicating with the backend.
+                          Design is kept minimalist to let the photographs stand out. Implemented
+                          a simple backend that allows sending emails through a form. This project
+                          helped me get more comfortable when communicating with the backend.
                         </p>
                         <ul className="tech-list">
                           <li>React.js</li>
@@ -319,8 +345,8 @@ class App extends Component {
                           <span></span>
                         </div>
                         <p>A single page application that is responsive and interactive. This project helped me get more
-                        comfortable working with React.js and work with a CSS preprocessor for the first
-                        time.
+                          comfortable working with React.js and work with a CSS preprocessor for the first
+                          time.
                         </p>
                         <ul className="tech-list">
                           <li>React.js</li>
@@ -342,8 +368,8 @@ class App extends Component {
                           <span></span>
                         </div>
                         <p>Designed a new responsive and interactive look to the current McGill's SOCS.
-                        Implemented a simple backend that allows users to dynamically modify the content of
-                        some pages, like the Events page, where they can add new listings.
+                          Implemented a simple backend that allows users to dynamically modify the content of
+                          some pages, like the Events page, where they can add new listings.
                         </p>
                         <ul className="tech-list">
                           <li>React.js</li>
@@ -364,9 +390,9 @@ class App extends Component {
                           <span></span>
                         </div>
                         <p>A simple web page that generates a board game
-                        with the same concept as Tic Tac Toe and allows
-                        two users to play against one another. This is my first
-                        web development project.
+                          with the same concept as Tic Tac Toe and allows
+                          two users to play against one another. This is my first
+                          web development project.
                         </p>
                         <ul className="tech-list">
                           <li>JS</li>
